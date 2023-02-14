@@ -1,0 +1,123 @@
+  <script type="text/javascript">
+    function validation(){
+      var fn=document.getElementById('fnm').value;
+      var ln=document.getElementById('lnm').value;
+      var add=document.getElementById('addnm').value;
+      var city=document.getElementById('citynm').value;
+      var state=document.getElementById('statenm').value;
+      var country=document.getElementById('countrynm').value;
+      var zip=document.getElementById('zipnm').value;
+      var email=document.getElementById('emailnm').value;
+      var mob=document.getElementById('mobnm').value;
+      var branch=document.getElementById('branchnm').value;
+      var semester=document.getElementById('semnm').value;
+      var course=document.getElementById('coursenm').value;
+      var college=document.getElementById('collnm').value;
+
+      if(fn==""){
+        document.getElementById('1').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(!isNaN(fn)){
+        document.getElementById('1').innerHTML="** Only characters are allowed";
+        return false;
+
+      }
+      if(ln==""){
+        document.getElementById('2').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(!isNaN(ln)){
+        document.getElementById('2').innerHTML="** Only characters are allowed";
+        return false;
+      }
+      if(add==""){
+        document.getElementById('3').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(!isNaN(add)){
+        document.getElementById('3').innerHTML="** Only characters are allowed";
+        return false;
+      }
+      if(city==""){
+        document.getElementById('4').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(!isNaN(city)){
+        document.getElementById('4').innerHTML="** Only characters are allowed";
+        return false;
+      }
+      if(state==""){
+        document.getElementById('5').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(!isNaN(state)){
+        document.getElementById('5').innerHTML="** Only characters are allowed";
+        return false;
+      }
+      if(country==""){
+        document.getElementById('6').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(!isNaN(country)){
+        document.getElementById('6').innerHTML="** Only characters are allowed";
+        return false;
+      }
+      if(zip==""){
+        document.getElementById('7').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(isNaN(zip)){
+        document.getElementById('7').innerHTML="** Only digits are allowed";
+        return false;
+      }
+      if(email==""){
+        document.getElementById('8').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(mob==""){
+        document.getElementById('9').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(isNaN(mob)){
+        document.getElementById('9').innerHTML="** Only digits are allowed";
+        return false;
+      }
+      if(branch==""){
+        document.getElementById('10').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(!isNaN(branch)){
+        document.getElementById('10').innerHTML="** Only characters are allowed";
+        return false;
+      }
+      if(semester==""){
+        document.getElementById('11').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(isNaN(semester)){
+        document.getElementById('11').innerHTML="** Only digits are allowed";
+        return false;
+      }
+      if(course==""){
+        document.getElementById('12').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(!isNaN(course)){
+        document.getElementById('12').innerHTML="** Only characters are allowed";
+        return false;
+      }
+      if(college==""){
+        document.getElementById('13').innerHTML="** Please fill the required field";
+        return false;
+      }
+      if(!isNaN(college)){
+        document.getElementById('13').innerHTML="** Only characters are allowed";
+        return false;
+      }
+    }
+
+  </script>
+
+</body>
+</html>

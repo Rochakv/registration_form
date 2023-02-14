@@ -1,0 +1,74 @@
+<%- include("header") -%>
+  <div class="content">
+
+      <h1>Course Registration</h1>
+    <div class="main">
+      <form class="" action="/" method="post"name="regform"onsubmit="return validation()">
+        <h2>Personal Details</h2>
+        <div class="fnln">
+          <input id="fnm"class="f2"type="text" name="fn" value="" placeholder="First Name" autocomplete="off"><span id="1"></span>
+        </div>
+        <div class="fnln">
+          <input id="lnm"class="f2"type="text" name="ln" value="" placeholder="Last Name" autocomplete="off"><span id="2"></span>
+        </div>
+        <div class="fnln">
+          <input id="addnm"class="f2"type="text" name="add" value="" placeholder="Address" autocomplete="off"><span id="3"></span>
+
+        </div>
+        <h2>Region Details</h2>
+        <div class="fnln">
+          <input id="citynm"class="f2"type="text" name="city" value="" placeholder="City" autocomplete="off"><span id="4"></span>
+
+        </div>
+        <div class="fnln">
+          <input id="statenm"class="f2"type="text" name="state" value="" placeholder="State" autocomplete="off"><span id="5"></span>
+
+        </div>
+        <div class="fnln">
+          <input id="countrynm"class="f2"type="text" name="country" value="" placeholder="Country" autocomplete="off"><span id="6"></span>
+
+        </div>
+        <div class="fnln">
+          <input id="zipnm"class="f2"type="text" name="zip" value="" placeholder="ZIP Code" autocomplete="off"><span id="7"></span>
+
+        </div>
+        <h2>Contact Details</h2>
+        <div class="fnln">
+          <input id="emailnm"class="f2"type="text" name="email" value="" placeholder="E-mail" autocomplete="off"><span id="8"></span>
+
+        </div>
+        <div class="fnln">
+          <input id="mobnm"class="f2"type="text" name="mob" value="" placeholder="Mobile No." autocomplete="off"><span id="9"></span>
+
+        </div>
+        <h2>Academic Details</h2>
+        <div class="fnln">
+          <input id="branchnm"class="f2"type="text" name="branch" value="" placeholder="Branch" autocomplete="off"><span id="10"></span>
+
+        </div>
+        <div class="fnln">
+          <input id="semnm"class="f2"type="text" name="sem" value="" placeholder="Semester" autocomplete="off"><span id="11"></span>
+
+        </div>
+        <div class="fnln">
+          <input id="coursenm"class="f2" type="text" name="course" value="" placeholder="Course" autocomplete="off"><span id="12"></span>
+
+        </div>
+        <div class="fnln">
+          <input id="collnm"class="f2" type="text" name="collname" value="" placeholder="College Name" autocomplete="off"><span id="13"></span>
+
+        </div>
+        <div class="fnln">
+          <button class="b1" type="submit" name="button1">REGISTER</button>
+
+        </div>
+
+
+      </form>
+      <a href="/show">Show Candidates</a>
+
+    </div>
+  </div>
+
+
+<%- include("footer") -%>

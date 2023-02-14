@@ -1,0 +1,9 @@
+<%- include("header") -%>
+<h1>Candidates</h1>
+<p>Due to <span color="red">privacy policy</span> we can't show all the details of candidates.<br>
+We will only show their first name and last name.</p>
+<%candidates.forEach(function(data){%>
+  <li><%=data.fname%><%=data.lname%> </li>
+<%})%>
+<a href="/">Go to home page</a>
+<%- include("footer") -%>
